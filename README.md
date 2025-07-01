@@ -8,6 +8,9 @@
 
 專案詳細教學流程 > ：[Django + React 電商網站專案實作教學](https://akebee.com/tags/#Django)
 
+
+![image](https://github.com/youngOman/niceshop_django_react/blob/main/static/images/achievement.png)
+
 # 管理員測試帳號
 
 使用以下這組帳號密碼登入以體驗完整功能
