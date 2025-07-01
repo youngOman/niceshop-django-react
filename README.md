@@ -1,8 +1,12 @@
 # E-Commerce Fullstack 電商網站專案
 
-本專案為練習用電商平台 Demo，包含 **會員系統、購物功能、訂單管理、後台管理**... 等多項核心功能
+本專案為教學用實戰電商平台 Demo，從零開始，涵蓋前後台完整功能模組，並同步撰寫全系列技術文章，作為 Django + React 架構電商開發的學習與實作指南。
 
-開發此專案的完整詳細流程 > ：[Django + React 電商網站專案實作教學](https://akebee.com/tags/#Django)
+功能包含會員註冊與登入、購物車操作、付款、結帳流程、訂單明細查詢、後台訂單／會員／物流狀態管理等，完整呈現電商網站從資料建模、前後端串接、狀態管理、到部署上線的開發流程，亦涵蓋 RESTful API 設計、購物流程邏輯建構、訂單與庫存資料串接等多項實戰需求。
+
+技術面上，前端採用 React + Redux 進行狀態管理，整合 React Router 處理頁面路由與登入權限控制，後端以 Django REST Framework 建立 API 並使用 JWT（JSON Web Token）實作身份驗證與授權機制。UI 使用 react-bootstrap 提高開發效率。
+
+專案詳細教學流程 > ：[Django + React 電商網站專案實作教學](https://akebee.com/tags/#Django)
 
 # 管理員測試帳號
 
