@@ -1,4 +1,16 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+.env
 
 # 忽略媒體檔案（使用者上傳的檔案）
 media/
@@ -36,6 +48,7 @@ instance/
 
 # uwsgi cache
 niceshop.sock
+
 
 
 # npm / yarn / pnpm lock files (optional if using only one package manager)
