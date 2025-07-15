@@ -36,27 +36,31 @@ const HomePage = () => {
 			{/* 有 keyword 就「不」顯示 ProductCarousel */}
 			{!keyword && <ProductCarousel />}
 			
-			<h1>最新產品(2025更新)</h1>
-			{loading ? (
-				<h1>
-					<Loader />
-				</h1>
-			) : error ? (
-				<h3>
-					<Message variant='danger'>{error}</Message>
-				</h3> // 要測試錯誤可以去 action 改axios.get
-			) : (
-				<>
-					<Row>
-						{products.map((product) => (
-							<Col key={product.id}>
-								<Product product={product} />
-							</Col>
-						))}
-					</Row>
-					<Paginate pages={pages} page={page} keyword={keyword} isAdmin={false} />
-				</>
-			)}
+			<div className="products-section">
+				<h1 className="products-title">最新產品(2025更新)</h1>
+				{loading ? (
+					<div className="text-center my-5">
+						<Loader />
+					</div>
+				) : error ? (
+					<div className="text-center my-5">
+						<Message variant='danger'>{error}</Message>
+					</div>
+				) : (
+					<>
+						<Row className="products-grid">
+							{products.map((product) => (
+								<Col key={product.id} xs={12} sm={6} md={4} lg={3} className="product-col">
+									<Product product={product} />
+								</Col>
+							))}
+						</Row>
+						<div className="pagination-container">
+							<Paginate pages={pages} page={page} keyword={keyword} isAdmin={false} />
+						</div>
+					</>
+				)}
+			</div>
 		</div>
 	);
 };

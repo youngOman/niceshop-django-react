@@ -70,3 +70,132 @@ h3 {
 	background-color: #000000;
 } */
 
+/* 產品區域樣式 */
+.products-section {
+	margin-top: 2rem;
+}
+
+.products-title {
+	text-align: center;
+	margin-bottom: 2.5rem;
+	color: #333;
+	font-weight: 600;
+	position: relative;
+}
+
+.products-title::after {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80px;
+	height: 3px;
+	background: linear-gradient(45deg, #007bff, #0056b3);
+	border-radius: 2px;
+}
+
+.products-grid {
+	margin-bottom: 3rem;
+}
+
+.product-col {
+	margin-bottom: 2rem;
+	display: flex;
+	align-items: stretch;
+}
+
+.product-card {
+	border: 1px solid #e9ecef;
+	border-radius: 12px;
+	transition: all 0.3s ease;
+	overflow: hidden;
+	background: white;
+	padding: 1.25rem;
+}
+
+.product-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+	border-color: #007bff;
+}
+
+.product-card .card-img-top {
+	height: 200px;
+	object-fit: cover;
+	border-radius: 8px;
+	margin-bottom: 1rem;
+	transition: transform 0.3s ease;
+}
+
+.product-card:hover .card-img-top {
+	transform: scale(1.05);
+}
+
+.product-card .card-title {
+	font-size: 1.1rem;
+	margin-bottom: 0.8rem;
+	color: #333;
+	text-decoration: none;
+	line-height: 1.4;
+	height: 2.8rem;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.product-card .card-title:hover {
+	color: #007bff;
+}
+
+.product-card .card-text h3 {
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: #28a745;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.pagination-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+	padding: 1rem 0;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+	.products-title {
+		font-size: 1.5rem;
+		margin-bottom: 2rem;
+	}
+	
+	.product-col {
+		margin-bottom: 1.5rem;
+	}
+	
+	.product-card {
+		padding: 1rem;
+	}
+	
+	.product-card .card-img-top {
+		height: 180px;
+	}
+}
+
+@media (max-width: 576px) {
+	.products-title {
+		font-size: 1.3rem;
+	}
+	
+	.product-card .card-img-top {
+		height: 160px;
+	}
+	
+	.product-card .card-title {
+		font-size: 1rem;
+		height: 2.4rem;
+	}
+}
+
