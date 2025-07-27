@@ -23,7 +23,6 @@
 
 ![image](https://github.com/youngOman/niceshop_django_react/blob/main/static/images/drawSQL.png)
 
-
 ### (Package Manager)套件管理工具：
 
 - **npm**：Node.js 的套件管理工具，用於安裝 React 相關套件
@@ -44,30 +43,33 @@
 
 ### 🛒 前台功能：
 
-- [x] 會員註冊 / 登入(JWT 驗證)
-- [x] 產品列表、產品詳細介紹頁面
- ![image](https://github.com/youngOman/niceshop_django_react/blob/main/static/images/product_detail_page.png)
+- RWD 首頁 (產品輪播器、產品分類、熱門產品、最新產品)
+  ![image](https://github.com/youngOman/niceshop_django_react/blob/main/static/images/rwd_home_page.png)
 
-- [x] 購物車功能
-![image](https://github.com/youngOman/niceshop_django_react/blob/main/static/images/cart_page.png)
+- 會員註冊 / 登入(JWT 驗證)
+- 產品列表、產品詳細介紹頁面
+  ![image](https://github.com/youngOman/niceshop_django_react/blob/main/static/images/product_detail_page.png)
 
-- [x] 結帳下單，付款流程完整功能(包含自動儲存用戶上次付款時資訊)
-![image](https://github.com/youngOman/niceshop_django_react/blob/main/static/images/order_page.png)
-- [x] 會員歷史訂單列表(含下單日期、訂單金額、付款狀態、出貨狀態..等)
-![image](https://github.com/youngOman/niceshop_django_react/blob/main/static/images/profile_page.png)
-- [x] 產品評論與評分功能(包含用戶評分即時計算評價)
-- [x] 產品搜尋功能
-- [x] 自動篩選高評價產品的輪播器(Carousel)
-- [x] 圖片上傳功能(包含產品圖片、會員頭像)
-- [x] 會員個人資料編輯
-- [x] 訂單明細頁面
+- 購物車功能
+  ![image](https://github.com/youngOman/niceshop_django_react/blob/main/static/images/cart_page.png)
 
-### 🔧 後台功能：
+- 結帳下單，付款流程完整功能(包含自動儲存用戶上次付款時資訊)
+  ![image](https://github.com/youngOman/niceshop_django_react/blob/main/static/images/order_page.png)
+- 會員歷史訂單列表(含下單日期、訂單金額、付款狀態、出貨狀態..等)
+  ![image](https://github.com/youngOman/niceshop_django_react/blob/main/static/images/profile_page.png)
+- 產品評論與評分功能(包含用戶評分即時計算評價)
+- 產品搜尋功能
+- 自動篩選高評價產品的輪播器(Carousel)
+- 圖片上傳功能(包含產品圖片、會員頭像)
+- 會員個人資料編輯
+- 訂單明細頁面
 
-- [x] **產品資訊、價格、庫存、評價、規格管理**（CRUD）
-![image](https://github.com/youngOman/niceshop_django_react/blob/main/static/images/productList_page.png)
-- [x] **網站訂單管理**（CRUD + 訂單運送狀態更新）
-- [x] **會員管理**（CRUD + 會員資料、管理員權限設定）
+### 後台功能：
+
+- **產品資訊、價格、庫存、評價、規格管理**（CRUD）
+  ![image](https://github.com/youngOman/niceshop_django_react/blob/main/static/images/productList_page.png)
+- **網站訂單管理**（CRUD + 訂單運送狀態更新）
+- **會員管理**（CRUD + 會員資料、管理員權限設定）
 
 ## DEBUG LOG
 
